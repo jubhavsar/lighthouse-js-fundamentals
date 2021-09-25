@@ -1,4 +1,4 @@
-const whichSchool = function(age) // school choice according to age
+const whichSchool = function(age)   // school choice according to age
 {
   let school = "";
   if(age < 13){
@@ -11,4 +11,4 @@ const whichSchool = function(age) // school choice according to age
   return school;
 }
 console.log("I am " + 35 + ".Which school should I go to? ");
-console.log(whichSchool(35)); // proper school recomandation.
+console.log(whichSchool(35));       // proper school recomandation. 
