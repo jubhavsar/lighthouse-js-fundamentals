@@ -1,11 +1,11 @@
-const whichSchool = function(age)   // school choice according to age
+const whichSchool = function (age)   // school choice according to age
 {
   let school = "";
-  if(age < 13){
+  if (age < 13) {
     school = "Elementary School";
-  }else if(age >= 13 && age <= 18){
+  } else if (age >= 13 && age <= 18) {
     school = "Secondary School";
-  }else{
+  } else {
     school = "Lighthouse Labs";
   }
   return school;
